@@ -1,4 +1,4 @@
-package br.ufc.quixada;
+package br.ufc.quixada.versao01;
 
 public class CountDownClock extends Thread implements ITimeMonitor {
 	private int t;

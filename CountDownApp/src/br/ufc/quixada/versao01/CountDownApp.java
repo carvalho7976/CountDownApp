@@ -1,4 +1,4 @@
-package br.ufc.quixada;
+package br.ufc.quixada.versao01;
 
 import java.util.ArrayList;
 

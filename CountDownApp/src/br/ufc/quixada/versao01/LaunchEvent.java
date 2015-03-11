@@ -1,4 +1,4 @@
-package br.ufc.quixada;
+package br.ufc.quixada.versao01;
 
 public class LaunchEvent implements Runnable {
 	private int start;
