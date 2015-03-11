@@ -7,9 +7,14 @@ public class CountDownClockNew implements Runnable {
 	}
 	
 	@Override
-	public void run() {
+	public synchronized void  run() {
 		System.out.println("T  menos " + t);
-
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
